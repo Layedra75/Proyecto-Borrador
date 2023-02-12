@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link type="text/css" href="{% static "style.css" %}" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <div class="head">
+        
+        <div class="logo">
+            <a href="#">TecnoSell</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Tecnicas</a>
+            <a href="#">Objetivo</a>  
+            <a href="#">Nosotros</a> 
+            <a href="#">Contacto</a>
+        </nav>
+
+   </div>
+
+
+   <header class="content header">
+       <h2 class="title">Inicio</h2>
+       <p> 
+        Transforma tus sueños en realidad con nuestro apoyo en emprendimiento,
+        juntos creamos oportunidades para alcanzar el éxito.
+       </p>
+       <a href="#" class="btn">Saber mas</a>
+   </header>
+
+
+   <section class="content sau">
+       <h2 class="title">Tecnicas de ventas</h2>
+       <p> 
+        Las técnicas de ventas son estrategias y métodos utilizados 
+        por los vendedores para persuadir a los clientes potenciales 
+        a comprar un producto o servicio. 
+        </p>
+
+        <div class="box-container">
+
+            <div class="box">
+              <i class="fa fa-user"></i>
+                <h3>Venta por objeciones</h3>
+                <p>Anticipar y responder a las preocupaciones del cliente</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-tag"></i>
+                <h3>Venta de solución</h3>
+                <p>Enfocarse en cómo el producto o servicio puede 
+                resolver un problema específico del cliente.</p>
+            </div>
+
+            <div class="box">
+              <i class="fa fa-question"></i>
+                <h3>Venta consultiva</h3>
+                <p>Trabajar con el cliente para entender sus necesidades 
+                y recomendar productos o servicios que se ajusten a ellas.</p>
+            </div>
+
+        </div>
+
+   </section>
+
+   <section class="content price">
+
+        <article class="contain">
+
+            <h2 class="title">Objetivo</h2>
+            <p>El objetivo de aprender las tecnicas de venta es
+            poder generar ingresos y lograr vender con mayor 
+            eficiencia para así poder aumentar la rentabilidad financiera de la empresa.
+            </p>
+            <a href="#" class="btn">Empezar</a>
+
+        </article>
+
+   </section>
+
+   <section class="content about">
+        <h2 class="title">Nosotros</h2>
+        <p>Somos un equipo de expertos en técnicas de venta con una amplia experiencia en el campo.
+        Ofrecemos capacitación y asesoramiento estratégico para mejorar las habilidades de venta de 
+        nuestros clientes. Trabajamos con una variedad de industrias y compañías para aumentar sus ingresos 
+        y alcanzar sus metas de ventas. Nuestra metodología está basada en las técnicas de venta más 
+        actuales y eficaces.
+        </p>
+        <div class="box-container2">
+
+            <div class="box">
+                <img src={% static "img/pic1.jpg" %} alt="">
+                <h3>lorem</h3>
+                <p>ratione amet ea sapiente</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+
+            <div class="box">
+              <img src={% static "img/pic2.jpg" %} alt="">
+                <h3>lorem</h3>
+                <p>ratione amet ea sapiente</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+              <img src={% static "img/pic3.jpg" %} alt="">
+                <h3>lorem</h3>
+                <p>ratione amet ea sapiente</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+
+        </div>
+        
+   </section>
+
+   <section class="content contact">
+        <h2 class="title">Contacto</h2>
+
+        <div class="footer-section">
+
+            <div>
+                <p>54545754</p>
+            </div>
+
+            
+
+            <div class="f-enlaces">
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Contacto</a>
+                <a href="#">Productos</a>
+                <a href="#">Precio</a>
+            </div>
+
+            <figure>
+              <img src={% static "img/mapa.png" %} height="220px" width="100%" alt="mapa">
+            </figure>
+
+        </div>
+
+   </section>
+    
+</body>
+</html>
